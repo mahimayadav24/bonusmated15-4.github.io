@@ -612,25 +612,27 @@ ol, #uk {
     top: 0;
 }
 
-.bg_rept .left__first {
-    content: '';
-    position: absolute;
-    background-size: contain;
+
+.repet::before {
+    content: "";
     top: -8px;
-    width: 100%;
-    height: 1530px;
-    z-index: -1;
-
-}
-
-.bg_rept .right__img {
-    content: '';
     position: absolute;
-    background-size: contain;
-    bottom: -30px;
+    background-image: url('./images/Rectangle 105 (1).png');
+    background-position-x: initial;
+    background-position-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: repeat;
+    overflow-x: hidden;
+    height: 102%;
     width: 100%;
     z-index: -1;
 }
+
+
 
 
 .cent {
@@ -996,7 +998,7 @@ ol, #uk {
     margin-bottom: 0;
     font-size: 40px;
     font-family: 'Oswald__Bold';
-    color: rgba(255, 0, 0, 1);
+    color: #FFDD00;
 }
 
 .grid__di p:nth-child(2) {
@@ -1062,11 +1064,11 @@ ol, #uk {
 }
 
 .backdrop .fa-exclamation-circle {
-    color: rgba(255, 0, 0, 1);
+    color: #FFDD00;
 }
 
 .backdrop .red_imp {
-    color: rgba(255, 0, 0, 1);
+    color: #FFDD00;
 }
 
 @media screen and (max-width: 640px) {
@@ -1230,7 +1232,7 @@ ol, #uk {
     margin-right: 1rem;
     margin-bottom: 1rem;
     margin-left: 1rem;
-    color: red;
+    color: #FFDD00;
 }
 
 .countdown-label {
